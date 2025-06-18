@@ -1,7 +1,7 @@
 const axios = require("axios");
 const uniqid = require("uniqid");
 const { getToken } = require("./auth");
-
+// const { getToken } = require("./debug-auth"); //for debugging purposes - uncomment this line if you want to use the debug version
 const BACKEND_URL = process.env.REDIRECT_BASE_URL;
 const FRONTEND_URL = "http://localhost:3000"; // Next.js frontend URL
 
